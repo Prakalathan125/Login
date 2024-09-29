@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.body-text{
+    
+    font-family: 'Montserrat',sans-serif;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    min-height: 8vh;
+    font-family: 'Montserrat',sans-serif;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+
+}
+.heading{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+.nav-links li{
+    list-style: none;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+.nav-links li a:hover:not(.active) {
+    background-color: lightseagreen;
+}
+.nav-links li a.active {
+    background-color: #4caf50;
+}
+.body-text p{
+    margin-bottom: 5%;
+}
+.contact li{
+    margin-bottom: 3%;
+}
+.service li{
+    margin-bottom: 1%;
+}
+
+
